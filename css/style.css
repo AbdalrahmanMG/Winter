@@ -1,0 +1,37 @@
+#home{
+    font-family: 'Merriweather', serif;
+}
+#home h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-style: italic;
+}
+#home button{
+    padding: 30px 60px;
+    font-size: 26px;
+}
+#home #quoteTxt{
+    margin-top: 30px;
+}
+#home p{
+    font-size: 22px;
+}
+#home .btn{
+    --bs-btn-bg: white
+}
+#home .btn-outline-mine{
+    --bs-btn-color: #297c55;
+    /* --bs-btn-border-color: #198754; */
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
